@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D2BDBAF1-F4AD-447D-B2F5-324F464213CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AirlineReservationSystem_01</RootNamespace>
+    <AssemblyName>AirlineReservationSystem_01</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminChoice.Designer.cs">
+      <DependentUpon>AdminChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookFlight.Designer.cs">
+      <DependentUpon>BookFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cancelFinal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelFinal.Designer.cs">
+      <DependentUpon>cancelFinal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cancelFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelFlight.Designer.cs">
+      <DependentUpon>cancelFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Con1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Con1.Designer.cs">
+      <DependentUpon>Con1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmFlight.Designer.cs">
+      <DependentUpon>ConfirmFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Contact.Designer.cs">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="continue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="continue.Designer.cs">
+      <DependentUpon>continue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Domestic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Domestic.Designer.cs">
+      <DependentUpon>Domestic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FlightSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlightSchedule.Designer.cs">
+      <DependentUpon>FlightSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="International.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="International.Designer.cs">
+      <DependentUpon>International.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginAS.Designer.cs">
+      <DependentUpon>loginAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="removePassenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="removePassenger.Designer.cs">
+      <DependentUpon>removePassenger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="scheduledRoutes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="scheduledRoutes.Designer.cs">
+      <DependentUpon>scheduledRoutes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserChoice.Designer.cs">
+      <DependentUpon>UserChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserLogincs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserLogincs.Designer.cs">
+      <DependentUpon>UserLogincs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserRegistration.Designer.cs">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewFlights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewFlights.Designer.cs">
+      <DependentUpon>ViewFlights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewPasengerscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewPasengerscs.Designer.cs">
+      <DependentUpon>ViewPasengerscs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRoutes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRoutes.Designer.cs">
+      <DependentUpon>ViewRoutes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminChoice.resx">
+      <DependentUpon>AdminChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookFlight.resx">
+      <DependentUpon>BookFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelFinal.resx">
+      <DependentUpon>cancelFinal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelFlight.resx">
+      <DependentUpon>cancelFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Con1.resx">
+      <DependentUpon>Con1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmFlight.resx">
+      <DependentUpon>ConfirmFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contact.resx">
+      <DependentUpon>Contact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="continue.resx">
+      <DependentUpon>continue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Domestic.resx">
+      <DependentUpon>Domestic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FlightSchedule.resx">
+      <DependentUpon>FlightSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="International.resx">
+      <DependentUpon>International.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginAS.resx">
+      <DependentUpon>loginAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="removePassenger.resx">
+      <DependentUpon>removePassenger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="scheduledRoutes.resx">
+      <DependentUpon>scheduledRoutes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserChoice.resx">
+      <DependentUpon>UserChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserLogincs.resx">
+      <DependentUpon>UserLogincs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserRegistration.resx">
+      <DependentUpon>UserRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewFlights.resx">
+      <DependentUpon>ViewFlights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewPasengerscs.resx">
+      <DependentUpon>ViewPasengerscs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRoutes.resx">
+      <DependentUpon>ViewRoutes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
